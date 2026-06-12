@@ -68,7 +68,6 @@ npm run deploy                            # 빌드 + wrangler deploy
 배포된 공개 URL에서만 ModelArk 웹훅이 동작합니다(localhost 제외). 콜백 URL에 `CALLBACK_TOKEN`을
 실어 보내고 수신 시 검증하므로, 운영에서는 `wrangler secret`로 강한 값을 설정하세요.
 
-- 배포 대상: Worker `seedance` · 커스텀 도메인 **https://seedance.ouor.in**
 - 시크릿은 워커별이므로 워커 이름을 바꾸면 `wrangler secret put CALLBACK_TOKEN`을 다시 실행해야 합니다.
 
 ## 메모
